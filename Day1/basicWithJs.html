@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Namaste Javascript</h1>
+    <script>
+        const elem = document.createElement('h1');
+        const text = document.createTextNode('Namaste React!');
+        elem.appendChild(text);
+        document.body.appendChild(elem);
+    </script>
 </body>
 </html>
