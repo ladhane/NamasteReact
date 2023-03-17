@@ -51,16 +51,17 @@ const header = React.createElement("div",{class:"title"},[h1,h2,h3]);
 //     </div>
 // )
 
-// 5.3 - doesnt work
-// const TitleComponent = () => (<div className="title">
+// 5.3
+// const TitleComponent = () => (
+//      <div className="title">
 //        <h1 id="h1">Heading1</h1>
 //        <h2 id="h2">Heading2</h2>
 //        <h3 id="h3">Heading3</h3>
 //      </div>)
 
-// const HeaderComponent = () => ( <TitleComponent><TitleComponent/>);
-
-
+// const HeaderComponent = () =>{ return (
+// <TitleComponent></TitleComponent>
+// )};
 
 
 
